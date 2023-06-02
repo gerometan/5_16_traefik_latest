@@ -1,2 +1,5 @@
-= Home Page of Proxy Server Application
+= Traefik Proxy Application
+
+include::partial$gen-concept.adoc[]
+include::partial$integration-concept.adoc[]
 

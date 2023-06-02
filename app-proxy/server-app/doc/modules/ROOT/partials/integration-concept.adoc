@@ -1,0 +1,35 @@
+=== Integration Concepts
+
+To integrate Traefik Proxy with Consul, you need to configure Traefik with the following parameters:
+
+==== Consul Endpoint
+Traefik acts as a reverse proxy, sitting between the clients (end-users or other services) and your backend services. It receives incoming requests and forwards them to the appropriate backend based on defined routing rules.
+
+[source,json]
+----
+{
+   "name":"testService-proxy",
+   "id":"testService-proxy-id",
+   "port":8090,
+   "kind":"connect-proxy",
+   "checks":[
+      {
+         "Name":"Connect Proxy Listener",
+         "TCP":"127.0.0.1:8090",
+         "Interval":"10s"
+      },
+   ]
+}
+----
+
+==== Consul Catalog Provider
+Enable and configure the Consul catalog provider in Traefik. This provider allows Traefik to dynamically discover services registered in Consul. You need to specify parameters such as endpoint, prefix, and watch to define the Consul catalog provider. For example:
+
+[source,yaml]
+----
+providers:
+   consulCatalog:
+      endpoint: 
+         address: http://<consul hostname>:8500
+----
+
