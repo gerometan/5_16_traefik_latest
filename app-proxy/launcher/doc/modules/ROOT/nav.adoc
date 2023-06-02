@@ -1,2 +1,1 @@
-* xref:launcher.adoc[]
 * xref:index.adoc[]
