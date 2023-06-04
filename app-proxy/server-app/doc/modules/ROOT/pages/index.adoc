@@ -1,4 +1,4 @@
-= Traefik Proxy Application
+= Proxy Server - Concepts
 
 include::partial$gen-concept.adoc[]
 include::partial$integration-concept.adoc[]
