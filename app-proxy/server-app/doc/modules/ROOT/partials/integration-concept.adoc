@@ -21,6 +21,10 @@ Traefik acts as a reverse proxy, sitting between the clients (end-users or other
    ]
 }
 ----
+===== Parts Explained
+* name - defines the proxy listener, uses differently with id
+* id - reference name for the proxy endpoint
+
 
 ==== Consul Catalog Provider
 Enable and configure the Consul catalog provider in Traefik. This provider allows Traefik to dynamically discover services registered in Consul. You need to specify parameters such as endpoint, prefix, and watch to define the Consul catalog provider. For example:
