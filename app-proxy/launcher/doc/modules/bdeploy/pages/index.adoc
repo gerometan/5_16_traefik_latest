@@ -1,0 +1,3 @@
+= Bdeploy
+
+include::partial$run.adoc[]

@@ -1,5 +1,5 @@
 name: ProxyServerAppLauncher
-title: Traefik Proxy Server App Launcher
+title: Proxy Server - Deployment
 version: 0.1.0
 start_page: index.adoc
 asciidoc:
@@ -8,3 +8,4 @@ asciidoc:
     table-caption: true
 nav:
 - modules/ROOT/nav.adoc
+- modules/bdeploy/nav.adoc

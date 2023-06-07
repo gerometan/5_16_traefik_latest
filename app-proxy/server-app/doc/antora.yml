@@ -1,5 +1,5 @@
 name: ProxyServerApp
-title: Traefik Proxy Server App
+title: Proxy Server - Concepts
 version: 0.1.0
 start_page: index.adoc
 asciidoc:
