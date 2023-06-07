@@ -8,4 +8,3 @@ asciidoc:
     table-caption: true
 nav:
 - modules/ROOT/nav.adoc
-- modules/bdeploy/nav.adoc
