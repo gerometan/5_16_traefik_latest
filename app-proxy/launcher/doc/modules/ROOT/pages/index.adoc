@@ -1,3 +1,4 @@
+== Test
 ++++
 include::partial$frontpage.html[]
 ++++
