@@ -22,7 +22,7 @@ Traefik can handle SSL/TLS termination, offloading the encryption and decryption
 Traefik offers a rich set of middleware options and plugin support, enabling you to apply various transformations and enhancements to the incoming requests and responses. Middleware functions include authentication, rate limiting, request/response modification, and more.
 
 ==== Metrics and Monitoring
-Traefik provides built-in metrics and monitoring capabilities, allowing you to monitor the performance, traffic, and health of your services. It supports integration with popular monitoring systems, such as Prometheus and Datadog.
+Traefik provides built-in metrics and monitoring capabilities, allowing you to monitor the performance, traffic, and health of your services. It supports integration with popular monitoring systems such as Prometheus and Datadog.
 
 ==== Configuration and API
 Traefik can be configured using a configuration file (e.g., TOML, YAML) or through a dynamic API. It provides a RESTful API that allows you to manage and modify its configuration, dynamically add/remove services, and retrieve monitoring metrics.
