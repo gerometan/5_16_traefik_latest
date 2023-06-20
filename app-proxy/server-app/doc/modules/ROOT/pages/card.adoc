@@ -1,5 +1,3 @@
-Concept Card
-
 ++++
 include::partial$frontpage.html[]
 ++++
